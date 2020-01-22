@@ -33,7 +33,7 @@ class App extends Component {
           <Menu.Item>
             <img src="logo.png" alt="" />
           </Menu.Item>
-          <Menu.Item header style={{ fontSize: 20 }} as="a" href="/">
+          <Menu.Item header style={{ fontSize: 20 }}>
             TV Movie
           </Menu.Item>
           <Menu.Item
