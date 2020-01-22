@@ -2,7 +2,7 @@
 
 # React JS - Website Movies Menggunakan Redux, Axios, Auth0 dan Open API TV Maze
 
-> Website Tentang Movie Menggunakan Redux, Axios dengan Open API TV Maze dan juga menggunakan autentikasi login dengan Auth0
+> Website Tentang Movie Menggunakan Redux, Axios dengan Open API TV Maze dan juga menggunakan autentifikasi login dengan Auth0
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a0cc4d26-73dc-4047-a5c2-34d11f244dfd/deploy-status)](https://app.netlify.com/sites/tv-movie/deploys)
