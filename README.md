@@ -5,7 +5,6 @@
 > Website Tentang Movie Menggunakan Redux, Axios dengan Open API TV Maze dan juga menggunakan autentifikasi login dengan Auth0
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a0cc4d26-73dc-4047-a5c2-34d11f244dfd/deploy-status)](https://app.netlify.com/sites/tv-movie/deploys)
 
 ### Dependencies yang digunakan:
 
@@ -25,11 +24,13 @@
 
 - Download atau clone repository
 - Extract folder
+- Buat Akun Auth0 (Opsional) Jika ingin menggunakan autentifikasi
+- Ubah data callback di root:src/Auth/auth0-variables.js dengan data pada Auth0 yang didaftarkan
 - Install dependencies : `npm install` atau `yarn install`
 - Jalankan aplikasi : `npm start`
 
 ### Live Preview:
 
-Link: [TV Movie](https://tv-movie.netlify.com)
+Link: [TV Movie](https://tv-movie.herokuapp.com/)
 
-> Karena menggunakan open API TV Maze dengan url http, maka saat melakukan preview pada browser harus menonaktifkan dahulu mix-content agar API dapat tampil. Lihat caranya [disini](https://pearsonnacommunity.force.com/support/s/article/How-to-display-mixed-content-with-Google-Chrome-Internet-Explorer-or-Firefox-1408394589290)
+> Jika data dari Open API TV Maze tidak tampil maka pada browser harus dinonaktifkan dahulu Mix-Content agar API dapat tampil. Hal ini dikarenakan data dari Open API TV Maze menggunakan protokol HTTP. Berikut cara menonaktifkan Mix-Content [link](https://pearsonnacommunity.force.com/support/s/article/How-to-display-mixed-content-with-Google-Chrome-Internet-Explorer-or-Firefox-1408394589290)
