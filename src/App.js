@@ -25,7 +25,7 @@ class App extends Component {
   }
 
   render() {
-    const { isAuthenticated } = this.props.auth;
+    // const { isAuthenticated } = this.props.auth;
 
     return (
       <div>
@@ -53,7 +53,13 @@ class App extends Component {
           />
           <Menu.Menu position="right">
             <Menu.Item>
-              {!isAuthenticated() && (
+              {/* Disabled karena bugs pada auth callback*/}
+
+              <Button disabled inverted color="green">
+                Log In
+              </Button>
+
+              {/*{!isAuthenticated() && (
                 <Button onClick={this.login.bind(this)} inverted color="green">
                   Log In
                 </Button>
@@ -62,7 +68,7 @@ class App extends Component {
                 <Button onClick={this.logout.bind(this)} inverted color="red">
                   Log Out
                 </Button>
-              )}
+              )} */}
             </Menu.Item>
           </Menu.Menu>
         </Menu>
